@@ -17,7 +17,7 @@ namespace YoutubeScreenSaver
 
         private const int EM_SETCUEBANNER = 0x1501;
 
-        string filePath = "d://youtubescreensaver.json";
+        string filePath = Path.Combine(Application.StartupPath, "youtubescreensaver.json");
 
         List<FormPlayer> formPlayers = new List<FormPlayer>();
 
